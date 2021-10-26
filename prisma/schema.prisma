@@ -11,7 +11,8 @@ datasource db {
 }
 
 model ToDo {
-  id          Int     @default(autoincrement()) @id
+  id          Int       @default(autoincrement()) @id
   description String
-  done        Boolean @default(false)
+  isDone      Boolean   @default(false)
+  createdAt   DateTime  @default(now())
 }
