@@ -17,12 +17,6 @@ async function main() {
         'Surprise everyone with the fact that this project has no backend',
     },
   })
-
-  await prisma.toDo.create({
-    data: {
-      description: 'Show the advantages of static site generation',
-    },
-  })
 }
 
 main()

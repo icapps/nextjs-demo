@@ -77,7 +77,7 @@ const Home: NextPage = ({
       </Head>
 
       <main className="h-screen bg-gray-800 flex items-center justify-center">
-        <div className="w-full overflow-hidden transition-colors duration-200 transform rounded-lg md:mx-5 md:w-96 bg-gray-700">
+        <div className="overflow-hidden transition-colors duration-200 transform rounded-lg w-96 bg-gray-700">
           <p className="py-2 text-sm text-center text-white uppercase bg-blue-500">
             To-do&apos;s
           </p>
@@ -108,7 +108,7 @@ const Home: NextPage = ({
                   className="bg-transparent outline-none w-full text-white border-0 focus:ring-0 border-b-2 border-gray-600"
                   value={newToDo}
                   onChange={(e) => setNewToDo(e.target.value)}
-                  placeholder="Do the dishes"
+                  placeholder="Create a project in Next.js"
                 />
                 <button>
                   <PlusIcon className="text-white h-6" />
