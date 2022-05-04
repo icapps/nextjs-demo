@@ -108,7 +108,7 @@ const Home: NextPage = ({
                   className="bg-transparent outline-none w-full text-white border-0 focus:ring-0 border-b-2 border-gray-600"
                   value={newToDo}
                   onChange={(e) => setNewToDo(e.target.value)}
-                  placeholder="Create a project in Next.js"
+                  placeholder="Create a project using Prisma"
                 />
                 <button>
                   <PlusIcon className="text-white h-6" />

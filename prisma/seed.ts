@@ -6,15 +6,21 @@ async function main() {
 
   await prisma.toDo.create({
     data: {
-      description: 'Prepare a demo',
+      description: 'Prepare a demo for Next.js',
       isDone: true,
     },
   })
 
   await prisma.toDo.create({
     data: {
-      description:
-        'Surprise everyone with the fact that this project has no backend',
+      description: 'Prepare a demo for Prisma',
+      isDone: true,
+    },
+  })
+
+  await prisma.toDo.create({
+    data: {
+      description: 'Show everyone that Prisma is awesome',
     },
   })
 }
